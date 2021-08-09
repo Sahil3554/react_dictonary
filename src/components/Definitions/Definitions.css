@@ -1,0 +1,25 @@
+.meanings{
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+    /* height: 30vh;
+    border: 10px solid grey; */
+    height: 55vh;
+    border: 10px solid grey;
+    scrollbar-width: thin;
+    overflow-x: hidden;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+.subtitle{
+    font-size: 5vw;
+    text-transform: uppercase;
+    font-family: 'Montserrat',sans-serif;    
+}
+.singleMean{
+    display: flex;
+    flex-direction: column;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin: 10px 0;
+}
